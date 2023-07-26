@@ -20,7 +20,7 @@ function Login({ setIsLoggedIn }) {
 
     setIsLoggedIn(true);
 
-    // after logging the user in, redirect to the home page!
+    // after logging the user in, redirect to the home page, this ca also work in reverse when logging out the user
     history.push("/");
   }
 
